@@ -35,7 +35,7 @@ We show in the following the performance of the RCVs for scale at different laye
 </p>
 
 <p align="left">
-    <img src='results/performance1.png" width=700px>
+    <img src="results/performance1.png" width=700px>
 </p>
 
 ## Network pruning and transfer to histopathology
