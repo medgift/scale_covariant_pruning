@@ -34,11 +34,11 @@ We show in the following the performance of the RCVs for scale at different laye
     <img src="results/performance0.png" width=700px>
 </p>
 
-<p align="right">
+<p align="left">
     <img src='results/performance1.png" width=700px>
 </p>
-## Network pruning and transfer to histopathology
 
+## Network pruning and transfer to histopathology
 We pruned off the deep layers where scale invariance is learned (mixed 9 and 10 for Inception, for example). There are clear gains given by the pruning on the medical imaging task. 
 
 <p align="center">
