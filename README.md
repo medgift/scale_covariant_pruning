@@ -30,12 +30,8 @@ For the histopathology application, we use
 ## Preview of the results
 We show in the following the performance of the RCVs for scale at different layers of the network, averaged over 10 repetitions and over the 3 classes. Interestingly, the covariance of scale peaks at central layers and decreases close to softmax.
 
-<p align="left">
+<p align="center">
     <img src="results/performance0.png" width=350>
-</p>
-
-<p align="right">
-    <img src="results/performance1.png" width=350>
 </p>
 
 ## Network pruning and transfer to histopathology
