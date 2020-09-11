@@ -1,6 +1,6 @@
 # Interpretable Pruning of CNNs for Scale-Covariant Features in Medical Imaging
 
-This repository contains the code to interpret the classification of the Plus disease in Rethinopathy of Prematurity images by a deep CNN. This paper was presented at iMIMIC at MICCAI 2020. 
+This repository contains the code to implement layer pruning for preserving scale-covariant features during transfer laerning from ImageNet pretrained CNNs to another dataset. We use the deep learning interpretability approach of Regression Concept Vectors to analyze the layer-wise encoding of scale information in standard CNNs pre-trained on ImageNet. We show that pruning a pre-trained CNN to retain features that contain most scale information markedly improves the performance on a task of magnification prediction in histopathology images. This paper will be presented at iMIMIC at MICCAI 2020. 
 
 ## Reference
 Main paper to be cited
