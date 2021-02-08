@@ -1,18 +1,8 @@
 # Interpretable Pruning of CNNs for Scale-Covariant Features in Medical Imaging
 
-This repository contains the code to implement layer pruning for preserving scale-covariant features during transfer laerning from ImageNet pretrained CNNs to another dataset. We use the deep learning interpretability approach of Regression Concept Vectors to analyze the layer-wise encoding of scale information in standard CNNs pre-trained on ImageNet. We show that pruning a pre-trained CNN to retain features that contain most scale information markedly improves the performance on a task of magnification prediction in histopathology images. This paper will be presented at iMIMIC at MICCAI 2020. 
+This repository contains the code to implement layer pruning for preserving scale-covariant features during transfer laerning from ImageNet pretrained CNNs to another dataset. We use the deep learning interpretability approach of Regression Concept Vectors to analyze the layer-wise encoding of scale information in standard CNNs pre-trained on ImageNet. We show that pruning a pre-trained CNN to retain features that contain most scale information markedly improves the performance on a task of magnification prediction in histopathology images. 
 
-## Reference
-Main paper to be cited
 
-```
-@inproceedings{graziani2020interpretable,
-  title={Interpretable Pruning of CNNs for Scale-Covariant Features in Medical Imaging},
-  author={Graziani, Mara and Lompech, Thomas and Muller, Henning and Depeursinge, Adrien and Andrearczyck, Vincent},
-  journal={Workshop on Interpretability of Machine Intelligence in Medical Image Computing at MICCAI2020},
-  year={2020}
-}
-```
 <p align="center">
     <img src="results/arch.png" width=700px>
 </p>
